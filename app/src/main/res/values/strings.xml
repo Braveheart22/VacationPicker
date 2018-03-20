@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VacationPicker</string>
+    <string name="decide">DECIDE!</string>
+    <string name="travel_to">travel to</string>
+    <string name="enter_location_to_add">Enter location to add</string>
+    <string name="add">Add</string>
+    <string name="suitcase">suitcase</string>
+</resources>
