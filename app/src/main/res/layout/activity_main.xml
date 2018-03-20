@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/suitcase" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/decideBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/VacationTxt"
+        android:id="@+id/vacationTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -59,10 +59,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/VacationTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/vacationTxt" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/addBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
