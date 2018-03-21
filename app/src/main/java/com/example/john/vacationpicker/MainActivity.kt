@@ -7,7 +7,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    val vacationSpots = arrayListOf("Disney", "Hawaii", "Paris", "Okinawa", "Sydney", "Bahamas")
+    private val vacationSpots = arrayListOf("Disney", "Hawaii", "Paris", "Okinawa", "Sydney", "Bahamas")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
             vacationTxt.text = vacationSpots[randomVacation]
         }
 
+        addBtn.setOnClickListener {
+            val newVacationSpot = editTxt.text.toString()
+            vacationSpots.add(newVacationSpot)
+            editTxt.text.clear()
+        }
 
     }
 }
